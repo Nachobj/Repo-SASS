@@ -3,6 +3,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.boton {
+  display: inline-flex;
+  width: 40%;
+  height: 35px;
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.btn-form:hover {
+  background: black;
+  color: yellow;
+  border-color: yellow;
+}
+
 /* Index */
 * {
   padding: 0;
@@ -198,7 +220,7 @@ aside {
   }
   header .slider {
     height: 25vh;
-    width: 95vw;
+    width: 90vw;
     background-size: cover;
     animation-name: headerAnimate;
     animation-duration: 10s;
