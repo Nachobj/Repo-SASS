@@ -1,0 +1,400 @@
+/*CSS CARRITO*/
+@media (max-width:670px){
+    .contenedor-compra{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "formCompra"
+        "infoCompra";
+        
+    }
+    .fondo-img{
+        background-image: url(../img/pag-retros/fondo-compra2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .formCompra{
+        grid-area: formCompra;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 24px;
+    }
+    .infoCompra{
+        grid-area: infoCompra;
+        margin: 20px;
+    }
+
+    .text-white{
+    color: white;
+    }
+.text-yellow{
+    color: yellow;
+    margin-top: 40px;
+}
+.text-black{
+    color: black;
+}
+
+.main-compra .form1{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 50%;
+}
+
+/**Fin columna izq**/
+
+/**Columna der**/
+.info-compra{
+    margin-left: 10px;
+}
+.form-codigo{
+    width: 70%;
+}
+.titulo-codigo{
+    color: yellow;
+}
+.codigo{
+    width: 40%;
+}
+.precio-total{
+    margin-left: 20px;
+}
+
+.main-compra .galeria figure p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.main-compra .galeria figure img{
+    width: 80%;
+    height: 40%;
+    margin: 10px;
+}
+
+.main-compra .galeria figure{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-compra .card{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 50%;
+}
+.main-compra .card-body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.botonCodigo{
+    display: inline-flex;
+    width: 20%;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.botonCompra{
+    display: inline-flex;
+    width: 40%;
+    height: 38px;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn-form:hover{
+    background: black;
+    color: yellow;
+    border-color: yellow;
+}
+}
+
+@media (max-width:1023px){
+    .contenedor-compra{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "formCompra"
+        "infoCompra";
+        
+    }
+    .fondo-img{
+        background-image: url(../img/pag-retros/fondo-compra2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .formCompra{
+        grid-area: formCompra;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 24px;
+    }
+    .infoCompra{
+        grid-area: infoCompra;
+        margin: 20px;
+    }
+
+    .text-white{
+    color: white;
+    }
+.text-yellow{
+    color: yellow;
+    margin-top: 40px;
+}
+.text-black{
+    color: black;
+}
+
+.main-compra .form1{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 50%;
+}
+
+/**Fin columna izq**/
+
+/**Columna der**/
+.info-compra{
+    margin-left: 10px;
+}
+.form-codigo{
+    width: 70%;
+}
+.titulo-codigo{
+    color: yellow;
+}
+.codigo{
+    width: 40%;
+}
+.precio-total{
+    margin-left: 20px;
+}
+
+.main-compra .galeria figure p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.main-compra .galeria figure img{
+    width: 80%;
+    height: 40%;
+    margin: 10px;
+}
+
+.main-compra .galeria figure{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-compra .card{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 50%;
+}
+.main-compra .card-body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.botonCodigo{
+    display: inline-flex;
+    width: 20%;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.botonCompra{
+    display: inline-flex;
+    width: 40%;
+    height: 38px;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn-form:hover{
+    background: black;
+    color: yellow;
+    border-color: yellow;
+}
+}
+
+@media (min-width: 1024px){
+    .contenedor-compra{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: 
+        "formCompra infoCompra";
+        display: flex;
+        padding: 10px;
+    }
+    .fondo-img{
+        background-image: url(../img/pag-retros/fondo-compra2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 76vh;
+    }
+    .formCompra{
+        grid-area: formCompra;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+    .infoCompra{
+        grid-area: infoCompra;
+    }
+
+    .text-white{
+    color: white;
+    }
+.text-yellow{
+    color: yellow;
+    margin-top: 40px;
+}
+.text-black{
+    color: black;
+}
+
+.main-compra .form1{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 50%;
+}
+.main-compra .form2{
+    margin-top: 30px;
+    width: 50%;
+}
+/**Fin columna izq**/
+
+/**Columna der**/
+.info-compra{
+    margin-left: 10px;
+}
+.form-codigo{
+    width: 70%;
+}
+.titulo-codigo{
+    color: yellow;
+}
+.codigo{
+    width: 40%;
+}
+.precio-total{
+    margin-left: 20px;
+}
+
+.main-compra .galeria figure p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.main-compra .galeria figure img{
+    width: 80%;
+    height: 40%;
+    margin: 10px;
+}
+
+.main-compra .galeria figure{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+.main-compra .card{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 50%;
+}
+.main-compra .card-body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.botonCodigo{
+    display: inline-flex;
+    width: 20%;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.botonCompra{
+    display: inline-flex;
+    width: 40%;
+    height: 46px;
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn-form:hover{
+    background: black;
+    color: yellow;
+    border-color: yellow;
+}
+}
+
+
+
+
+
+
+
